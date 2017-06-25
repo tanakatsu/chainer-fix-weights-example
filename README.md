@@ -24,18 +24,18 @@ If you want to run this example on the N-th GPU, pass `--gpu=N` to the script.
 - Use hook to delete gradients
 - It takes as much time as reference 
 
-#### train\_volatile\_on\_without\_evaluate.py
+#### train\_volatile\_on\_without\_evaluator.py
 
 - Manipulate Variable's `volatile` flag
-- It won't work with evaluation (Exception is raised)
+- It won't work with evaluator (Exception is raised)
 - Less training time
 - chainer 1.x.x is required (`volatile` flag is not supported in chainer v2) 
 
-#### train\_volatile\_on\_with\_evaluate.py
+#### train\_volatile\_on\_with\_evaluator.py
  
 - Manipulate Variable's `volatile` flag
 - Use custom evaluator
-- It works with evaluation
+- It works with evaluator
 - Less training time
 - chainer 1.x.x is required (`volatile` flag is not supported in chainer v2) 
 
